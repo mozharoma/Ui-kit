@@ -1,0 +1,60 @@
+@charset "UTF-8";
+/*Подклюбчение цветов*/
+@font-face {
+  font-family: "Montserrat Bold";
+  src: local("Montserrat Bold"), url("/fonts/Montserrat-Bold.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Montserrat Regular";
+  src: local("Montserrat Regular"), url("/fonts/Montserrat-Regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Montserrat Medium";
+  src: local("Montserrat Medium"), url("/fonts/Montserrat-Medium.woff2") format("woff2");
+}
+/*Базовые стили для кнопки*/
+* {
+  font-family: "Montserrat";
+}
+
+button {
+  border: none;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 8px 0px;
+  text-decoration: none;
+  text-align: center;
+  width: 160px;
+  font-family: Montserrat Bold;
+}
+
+/*Варианты для кнопки primary*/
+.primary {
+  background-color: #2A59FE;
+  color: #FFFFFF;
+}
+
+.primary:hover {
+  background-color: rgba(42, 89, 254, 0.8);
+}
+
+.primary:active {
+  background-color: rgba(42, 89, 254, 0.6);
+}
+
+/*Варианты для кнопки secondary*/
+.secondary {
+  background-color: #F3F3F6;
+  color: #616B8A;
+}
+
+.secondary:hover {
+  background-color: #DBDDE4;
+}
+
+.secondary:active {
+  background-color: #C2C6D2;
+}
