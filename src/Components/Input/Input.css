@@ -1,0 +1,33 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Montserrat Bold";
+  src: local("Montserrat Bold"), url("/fonts/Montserrat-Bold.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Montserrat Regular";
+  src: local("Montserrat Regular"), url("/fonts/Montserrat-Regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Montserrat Medium";
+  src: local("Montserrat Medium"), url("/fonts/Montserrat-Medium.woff2") format("woff2");
+}
+/*Базовые стили input*/
+input {
+  padding: 8px 12px;
+  border-radius: 4px;
+  border: 1px solid #DDDBE4;
+  font-family: "Montserrat Regular";
+  font-size: 16px;
+  -webkit-transition: border 0.3s;
+  transition: border 0.3s;
+  display: block;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid #2A59FE;
+}
+
+.small {
+  width: 400px;
+}
