@@ -1,9 +1,9 @@
 import React from 'react'
 import './Input.css'
 function Input(props) {
-	const { size = 'medium', ...rest } = props
+	const { state = 'normal', ...rest } = props
 	return (
-		<input className={`input ${size}`} {...rest}/>
+		<input className={`input ${state}`} {...rest}/>
 	)
 }
 export default Input

@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+@font-face {
+	font-family: "Montserrat Bold";
+	src: local("Montserrat Bold"), url("/fonts/Montserrat-Bold.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "Montserrat Regular";
+	src: local("Montserrat Regular"), url("/fonts/Montserrat-Regular.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "Montserrat Medium";
+	src: local("Montserrat Medium"), url("/fonts/Montserrat-Medium.woff2") format("woff2");
+}
+
+/*Базовые стили input*/
+* {
+	padding: 0;
+	margin: 0;
+
+}
+
+input {
+	padding: 8px 12px;
+	border-radius: 8px;
+	font-family: "Montserrat Regular";
+	font-size: 18px;
+	transition: border 0.3s;
+	display: block;
+	-webkit-transition: border 0.3s;
+	background-color: #fafbfb;
+}
+
+input:focus {
+	outline: none;
+	border: 1px solid #2A59FE;
+}
+
+input[type=search] {
+	font-size: 18px;
+	border-radius: 8px;
+	border: 1px solid transparent;
+	background-image: url('Search.png');
+	background-repeat: no-repeat;
+	padding-left: 44px;
+	background-position: 12px 50%;
+	background-color: #fafbfb;
+
+}

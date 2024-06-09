@@ -6,6 +6,5 @@ export default {
 	title: 'Input',
 	component: Input,
 }
-export const Small = () => <Input variant='small' />
-export const Medium = () => <Input variant='medium' />
-export const Large = () => <Input variant='large' />
+export const Normal = () => <Input state='normal' placeholder='Text' />
+export const Disabled = () => <Input state='medium' placeholder='Disabled' disabled/>

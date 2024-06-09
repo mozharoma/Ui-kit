@@ -12,6 +12,12 @@
   src: local("Montserrat Medium"), url("/fonts/Montserrat-Medium.woff2") format("woff2");
 }
 /*Базовые стили input*/
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
 input {
   padding: 8px 12px;
   border-radius: 4px;
@@ -28,6 +34,12 @@ input:focus {
   border: 1px solid #2A59FE;
 }
 
-.small {
-  width: 400px;
+.normal {
+  background-color: #ffffff;
+  caret-color: #2A59FE;
+}
+
+.disabled:disabled {
+  background-color: #fafbfb;
+  color: #868da5;
 }

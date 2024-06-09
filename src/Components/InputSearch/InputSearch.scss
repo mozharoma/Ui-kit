@@ -36,8 +36,7 @@ $disabled-back-color: #FAFBFB;
 
 input {
 	padding: 8px 12px;
-	border-radius: 4px;
-	border: 1px solid $normal-border-color;
+	border-radius: 8px;
 	font-family: "Montserrat Regular";
 	font-size: 16px;
 	transition: border 0.3s;
@@ -48,14 +47,4 @@ input:focus {
 	outline: none;
 	border: 1px solid $border-color;
 
-}
-
-.normal {
-	background-color: #ffffff;
-	caret-color: $border-color;
-}
-
-.disabled:disabled {
-	background-color: #fafbfb;
-	color: #868da5;
 }
