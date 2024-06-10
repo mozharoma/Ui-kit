@@ -42,10 +42,21 @@ input[type=search] {
 	font-size: 18px;
 	border-radius: 8px;
 	border: 1px solid transparent;
-	background-image: url('Search.png');
+	background-image: url('Search.svg');
 	background-repeat: no-repeat;
 	padding-left: 44px;
 	background-position: 12px 50%;
 	background-color: #fafbfb;
 
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+	-webkit-appearance: none;
+	width: 20px;
+	height: 20px;
+	background: url('Cancel.svg');
+	margin-right: 2px;
+	cursor: pointer;
+	background-repeat: no-repeat;
+	background-position: center;
 }
